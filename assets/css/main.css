@@ -9699,6 +9699,16 @@ nav li a {
   width: 20%;
 }
 
+.header {
+  width: 100%;
+  height: 800px;
+  background-color: #FFF;
+  background-image: url("../entregables/images/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+
 .button {
   margin: 2%;
   padding: 2%;
