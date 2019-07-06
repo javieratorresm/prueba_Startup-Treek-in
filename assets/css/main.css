@@ -9670,9 +9670,9 @@ body {
 
 nav {
   padding: 1em;
-  font-family: "Ubuntu", sans-serif;
   display: flex;
   justify-content: space-around;
+  font-family: "Raleway", sans-serif;
 }
 
 nav img {
@@ -9704,6 +9704,8 @@ nav li a {
   padding: 2%;
   color: #FFF;
   width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 .button--registrate {
   background-color: #2ab7ca;

@@ -1,8 +1,9 @@
 nav {
   padding: 1em;
-  font-family: 'Ubuntu', sans-serif;
   display: flex;
   justify-content: space-around;
+  font-family: $raleway;
+
 }
 nav img{
   width: 3em;
