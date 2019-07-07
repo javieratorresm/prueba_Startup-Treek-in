@@ -9732,9 +9732,16 @@ nav li a {
 }
 
 .precio__container {
-  padding-top: 20%;
+  padding-top: 15%;
 }
 .precio__container__title {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.estadisticas__container__title {
   text-align: center;
   font-size: 40px;
   font-family: "Raleway", sans-serif;
@@ -9756,6 +9763,7 @@ nav li a {
 }
 .card__title {
   padding-left: 5%;
+  padding-top: 5%;
 }
 .card__divbutton {
   padding: 5%;
@@ -9771,6 +9779,13 @@ nav li a {
   margin: auto;
   padding: auto;
   width: 80%;
+}
+
+.estadisticas__div {
+  width: 100%;
+  margin: 5%;
+  background-color: #FFF;
+  color: #221d23;
 }
 
 .footer {

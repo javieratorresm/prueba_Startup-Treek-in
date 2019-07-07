@@ -11,7 +11,7 @@
 }
 
 .precio__container{
-  padding-top: 20%;
+  padding-top: 15%;
 
   &__title{
   text-align: center;
@@ -21,6 +21,18 @@
  }
 }
 
+
+.estadisticas__container{
+
+  &__title{
+  text-align: center;
+  font-size: $xxx-large;
+  font-family: $raleway;
+  font-weight: $bold;
+ }
+
+
+}
 
 .grid-container {
   display: grid;
@@ -38,6 +50,7 @@
 
 &__title{
 padding-left: 5%;
+padding-top: 5%;
 }
 
 &__divbutton{
@@ -54,6 +67,17 @@ padding-left: 5%;
 &__ul{
   margin: auto;
   padding: auto;
-  width: 80%;  
+  width: 80%;
 }
+}
+
+
+.estadisticas{
+
+  &__div{
+    width: 100%;
+    margin: 5%;
+    background-color: $white;
+    color: $raising-black;
+  }
 }
