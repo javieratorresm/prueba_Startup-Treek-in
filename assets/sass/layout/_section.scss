@@ -1,0 +1,22 @@
+
+.precio{
+
+  width: 100%;
+  height: 800px;
+  background-image: url("../entregables/images/bg-price.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $white;
+
+}
+
+.precio__container{
+  padding-top: 20%;
+
+  &__title{
+  text-align: center;
+  font-size: $xxx-large;
+  font-family: $raleway;
+  font-weight: $bold;
+ }
+}

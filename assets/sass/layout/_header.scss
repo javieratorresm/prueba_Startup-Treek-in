@@ -4,9 +4,19 @@
   width: 100%;
   height: 800px;
   background-color: $white;
-  background-image: url("../entregables/images/bg-hero.png");
+  background-image: url("../entregables/images/bg-hero.svg");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 100px;
+
+&__div{
+  width: 35%;
+  padding: 5%;
+  h6{
+    padding: 1%;
+    line-height:30px;
+  }
+
+}
 
 }

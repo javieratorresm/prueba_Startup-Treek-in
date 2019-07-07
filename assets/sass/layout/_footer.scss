@@ -1,0 +1,27 @@
+.footer{
+  padding: 1em;
+  display: flex;
+  font-family: $raleway;
+  background-color: $raising-black;
+  color: $white;
+
+  &__container ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 1em;
+    justify-content:space-between;
+    color: $white;
+
+
+  }
+  &__container li a {
+    display: inline-flex;
+    text-decoration: none;
+    padding: .5em 1em;
+    color: $white;
+
+  }
+
+
+
+}
