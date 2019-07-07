@@ -20,3 +20,40 @@
   font-weight: $bold;
  }
 }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 5%;
+  justify-content: center;
+
+}
+
+.card{
+  width: 100%;
+  margin: 5%;
+  background-color: $white;
+  color: $raising-black;
+
+&__title{
+padding-left: 5%;
+}
+
+&__divbutton{
+  padding: 5%;
+  margin: auto;
+}
+&__button{
+  background-color: $ball-blue;
+  color: $white;
+  font-family: $raleway;
+  font-weight: $bold;
+}
+
+&__ul{
+  margin: auto;
+  padding: auto;
+  width: 80%;  
+}
+}

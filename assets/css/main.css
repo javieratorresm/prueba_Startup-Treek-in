@@ -9741,6 +9741,38 @@ nav li a {
   font-weight: 700;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5%;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  margin: 5%;
+  background-color: #FFF;
+  color: #221d23;
+}
+.card__title {
+  padding-left: 5%;
+}
+.card__divbutton {
+  padding: 5%;
+  margin: auto;
+}
+.card__button {
+  background-color: #2ab7ca;
+  color: #FFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.card__ul {
+  margin: auto;
+  padding: auto;
+  width: 80%;
+}
+
 .footer {
   padding: 1em;
   display: flex;
