@@ -9673,6 +9673,17 @@ h6 {
   font-family: "Open Sans", sans-serif;
 }
 
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 nav {
   padding: 1em;
   display: flex;
@@ -9960,17 +9971,6 @@ nav li a {
     width: 90%;
     font-size: 12px;
     line-height: 30px;
-  }
-}
-@keyframes opacidad {
-  0% {
-    opacity: 0;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
   }
 }
 @media (max-width: 768px) {
