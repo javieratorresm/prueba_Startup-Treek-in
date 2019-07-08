@@ -9790,9 +9790,14 @@ nav li a {
 
 .footer {
   padding: 1em;
-  display: flex;
   font-family: "Raleway", sans-serif;
   background-color: #221d23;
+  color: #FFF;
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
   color: #FFF;
 }
 .footer__container ul {
@@ -9800,7 +9805,6 @@ nav li a {
   display: inline-flex;
   padding: 1em;
   justify-content: space-between;
-  color: #FFF;
 }
 .footer__container li a {
   display: inline-flex;
@@ -9808,7 +9812,6 @@ nav li a {
   padding: 0.5em 1em;
   color: #FFF;
 }
-
 .button {
   margin: 2%;
   padding: 2%;
