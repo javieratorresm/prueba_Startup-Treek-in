@@ -46,28 +46,45 @@
   width: 100%;
   margin: 5%;
   background-color: $white;
+  font-family: $raleway;
   color: $raising-black;
 
 &__title{
+  margin-top: 5%;
 padding-left: 5%;
 padding-top: 5%;
+h2{
+  font-weight: $bold;
+}
+h3{
+  color: $onyx;
+  font-size: $large;
+}
 }
 
 &__divbutton{
   padding: 5%;
   margin: auto;
+
 }
 &__button{
   background-color: $ball-blue;
   color: $white;
   font-family: $raleway;
   font-weight: $bold;
+  padding-left: 15%;
+  padding-right: 15%;
+
 }
 
 &__ul{
   margin: auto;
   padding: auto;
-  width: 80%;
+  width: 90%;
+  font-size: $x-small;
+  line-height:30px;
+
+
 }
 }
 
@@ -79,5 +96,22 @@ padding-top: 5%;
     margin: 5%;
     background-color: $white;
     color: $raising-black;
+  }
+  img{
+  animation: opacidad 4s ease-in-out 0s infinite;
+
+  }
+}
+
+@keyframes opacidad{
+  0%{
+    opacity: 0;
+  }
+
+  80%{
+    opacity: 1;
+  }
+100%{
+    opacity: 0;
   }
 }

@@ -9759,11 +9759,20 @@ nav li a {
   width: 100%;
   margin: 5%;
   background-color: #FFF;
+  font-family: "Raleway", sans-serif;
   color: #221d23;
 }
 .card__title {
+  margin-top: 5%;
   padding-left: 5%;
   padding-top: 5%;
+}
+.card__title h2 {
+  font-weight: 700;
+}
+.card__title h3 {
+  color: #333745;
+  font-size: 20px;
 }
 .card__divbutton {
   padding: 5%;
@@ -9774,11 +9783,15 @@ nav li a {
   color: #FFF;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .card__ul {
   margin: auto;
   padding: auto;
-  width: 80%;
+  width: 90%;
+  font-size: 12px;
+  line-height: 30px;
 }
 
 .estadisticas__div {
@@ -9787,11 +9800,26 @@ nav li a {
   background-color: #FFF;
   color: #221d23;
 }
+.estadisticas img {
+  animation: opacidad 4s ease-in-out 0s infinite;
+}
 
+@keyframes opacidad {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 .footer {
   padding: 1em;
   font-family: "Raleway", sans-serif;
   background-color: #221d23;
+  font-size: 12px;
   color: #FFF;
 }
 .footer__container {
