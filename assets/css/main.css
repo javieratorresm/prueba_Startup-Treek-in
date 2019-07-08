@@ -10060,13 +10060,21 @@ nav li a {
 .button {
   margin: 2%;
   padding: 2%;
-  color: #FFF;
   width: 100%;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 .button--registrate {
   background-color: #2ab7ca;
+  color: #FFF;
+}
+.button--registrate:hover {
+  background-color: #77d1dd;
+  color: #FFF;
+}
+.button--registrate:focus {
+  background-color: #c7c8cc;
+  color: #FFF;
 }
 .button--iniciar {
   background-color: #FFF;
